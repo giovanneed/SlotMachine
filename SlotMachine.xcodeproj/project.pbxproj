@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CE5983AD23C6A3FD00AADE2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5983AC23C6A3FD00AADE2E /* AppDelegate.swift */; };
-		CE5983AF23C6A3FD00AADE2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5983AE23C6A3FD00AADE2E /* ViewController.swift */; };
 		CE5983B223C6A3FD00AADE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5983B023C6A3FD00AADE2E /* Main.storyboard */; };
 		CE5983B423C6A3FD00AADE2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5983B323C6A3FD00AADE2E /* Assets.xcassets */; };
 		CE5983B723C6A3FD00AADE2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5983B523C6A3FD00AADE2E /* LaunchScreen.storyboard */; };
+		F67D859423D8053900A68847 /* button-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F67D859323D8053800A68847 /* button-3.mp3 */; };
+		F6B78EB523CEED3600541A87 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B78EB423CEED3600541A87 /* MainViewController.swift */; };
+		F6B78EE523CFEE5F00541A87 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6B78EE423CFEE5F00541A87 /* digital-7.ttf */; };
+		F6B78EE723CFFEB700541A87 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B78EE623CFFEB700541A87 /* GameController.swift */; };
+		F6B78EE923D0415B00541A87 /* Slot Machine Sound Effects Kit-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6B78EE823D0415B00541A87 /* Slot Machine Sound Effects Kit-2.mp3 */; };
+		F6B78EEB23D042AD00541A87 /* spinning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6B78EEA23D042AD00541A87 /* spinning.mp3 */; };
+		F6B78EED23D043E000541A87 /* lost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6B78EEC23D043E000541A87 /* lost.mp3 */; };
+		F6B78EEF23D0475200541A87 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6B78EEE23D0475200541A87 /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE5983A923C6A3FD00AADE2E /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5983AC23C6A3FD00AADE2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE5983AE23C6A3FD00AADE2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE5983B123C6A3FD00AADE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5983B323C6A3FD00AADE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5983B623C6A3FD00AADE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5983B823C6A3FD00AADE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67D859323D8053800A68847 /* button-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-3.mp3"; sourceTree = "<group>"; };
+		F6B78EB423CEED3600541A87 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F6B78EE423CFEE5F00541A87 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		F6B78EE623CFFEB700541A87 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		F6B78EE823D0415B00541A87 /* Slot Machine Sound Effects Kit-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Slot Machine Sound Effects Kit-2.mp3"; sourceTree = "<group>"; };
+		F6B78EEA23D042AD00541A87 /* spinning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spinning.mp3; sourceTree = "<group>"; };
+		F6B78EEC23D043E000541A87 /* lost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lost.mp3; sourceTree = "<group>"; };
+		F6B78EEE23D0475200541A87 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,37 @@
 		CE5983AB23C6A3FD00AADE2E /* SlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				F67D859623D8114200A68847 /* Font */,
+				F67D859523D8113A00A68847 /* Sounds */,
 				CE5983AC23C6A3FD00AADE2E /* AppDelegate.swift */,
-				CE5983AE23C6A3FD00AADE2E /* ViewController.swift */,
 				CE5983B023C6A3FD00AADE2E /* Main.storyboard */,
+				F6B78EE623CFFEB700541A87 /* GameController.swift */,
+				F6B78EB423CEED3600541A87 /* MainViewController.swift */,
 				CE5983B323C6A3FD00AADE2E /* Assets.xcassets */,
 				CE5983B523C6A3FD00AADE2E /* LaunchScreen.storyboard */,
 				CE5983B823C6A3FD00AADE2E /* Info.plist */,
 			);
 			path = SlotMachine;
+			sourceTree = "<group>";
+		};
+		F67D859523D8113A00A68847 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F6B78EEE23D0475200541A87 /* win.mp3 */,
+				F6B78EEC23D043E000541A87 /* lost.mp3 */,
+				F6B78EEA23D042AD00541A87 /* spinning.mp3 */,
+				F67D859323D8053800A68847 /* button-3.mp3 */,
+				F6B78EE823D0415B00541A87 /* Slot Machine Sound Effects Kit-2.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F67D859623D8114200A68847 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F6B78EE423CFEE5F00541A87 /* digital-7.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +143,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -124,9 +162,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B78EEB23D042AD00541A87 /* spinning.mp3 in Resources */,
+				F6B78EED23D043E000541A87 /* lost.mp3 in Resources */,
 				CE5983B723C6A3FD00AADE2E /* LaunchScreen.storyboard in Resources */,
+				F67D859423D8053900A68847 /* button-3.mp3 in Resources */,
+				F6B78EEF23D0475200541A87 /* win.mp3 in Resources */,
 				CE5983B423C6A3FD00AADE2E /* Assets.xcassets in Resources */,
 				CE5983B223C6A3FD00AADE2E /* Main.storyboard in Resources */,
+				F6B78EE923D0415B00541A87 /* Slot Machine Sound Effects Kit-2.mp3 in Resources */,
+				F6B78EE523CFEE5F00541A87 /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5983AF23C6A3FD00AADE2E /* ViewController.swift in Sources */,
+				F6B78EB523CEED3600541A87 /* MainViewController.swift in Sources */,
+				F6B78EE723CFFEB700541A87 /* GameController.swift in Sources */,
 				CE5983AD23C6A3FD00AADE2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.SlotMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -277,7 +322,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = a.SlotMachine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -300,6 +345,7 @@
 				CE5983BD23C6A3FD00AADE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
